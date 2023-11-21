@@ -1,0 +1,41 @@
+### Create initial request
+
+POST http://127.0.0.1:4004/odata/v4/list/Task
+Content-Type: application/json
+
+
+{
+    "responsible" : "Kelly Figueroa",
+    "description" : "Crear listado de tareas",
+    "date" : "16/11/2023",
+    "limitDate" : "18/11/2023",
+    "status": "Pendiente"
+}
+
+### Create initial request
+
+POST http://127.0.0.1:4004/odata/v4/list/Task
+Content-Type: application/json
+
+
+{
+    "responsible" : "María Cedeño",
+    "description" : "Revisar listado de tareas",
+    "date" : "20/11/2023",
+    "limitDate" : "22/11/2023",
+    "status": "Pendiente"
+}
+
+### Create initial request
+
+POST http://127.0.0.1:4004/odata/v4/list/Task
+Content-Type: application/json
+
+
+{
+    "responsible" : "Pedro Aristimuño",
+    "description" : "Asignar tareas listado de tareas",
+    "date" : "19/11/2023",
+    "limitDate" : "20/11/2023",
+    "status": "Pendiente"
+}
